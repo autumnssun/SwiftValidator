@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name         = "SwiftValidator"
+  s.name         = "NN_SwiftValidator"
   s.version      = "5.0.0"
   s.summary      = "A UITextField Validation library for Swift"
-  s.homepage     = "https://github.com/SwiftValidatorCommunity/SwiftValidator.git"
+  s.homepage     = "https://github.com/autumnssun/SwiftValidator.git"
   s.screenshots  = "https://raw.githubusercontent.com/jpotts18/SwiftValidator/master/swift-validator-v2.gif"
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author             = { "Jeff Potter" => "jeff.potter6@gmail.com" }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.swift_version = '4.2'
   s.ios.deployment_target	= '8.0'
-  s.source       = { :git => "https://github.com/SwiftValidatorCommunity/SwiftValidator.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/autumnssun/SwiftValidator.git", :tag => s.version.to_s }
   s.source_files  = "SwiftValidator/**/*.swift"
   s.exclude_files = "Validator/AppDelegate.swift"
   s.frameworks   = ['Foundation', 'UIKit']
